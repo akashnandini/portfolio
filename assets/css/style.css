@@ -1,0 +1,371 @@
+
+
+body{
+    
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+    color:#777777;
+    align-content: center;
+
+}
+
+
+.me{
+    background: url("../images/web5-edit.png") ;
+    height: 400px;
+    background-size:cover;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+    color:#777777;
+    align-content: center;    
+}
+
+.home-content{
+    text-align: center;
+    margin-top: 120px;
+    float: right;
+    margin-right: 100px;
+}
+.home-title{
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #f0f5f5;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+
+}
+.name{
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    color: #aac7ee;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+
+}
+.home-subtitle{
+    font-size: 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+.story{
+    color: #aac7ee;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.desc{
+    color:#777777;
+    font-size: 13px;
+    font-style: normal;
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.personal_desc{
+    color:#777777;
+    font-size: 13px;
+    font-style: normal;
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    text-align: justify;
+    border-bottom: #d6d5d5 1px solid;    
+    padding: 5px;
+    
+}
+
+.navbar{
+    margin-top: 10px;
+    background: #ffffff;    
+    margin-bottom: 10px;
+    border: #ffffff;
+}
+
+header{
+    background: #ffffff;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+}
+header h1{
+    background: #4aaaa5;    
+    font-size: 30px;
+    padding: 25px;
+    color:#ffffff;
+    display: inline-block;
+}
+
+.header-div{
+    width: 960px;
+    margin: 0 auto; 
+    background: #ffffff; 
+
+    
+}
+
+
+a:link {
+    color: #4aaaa5;
+}
+
+a:visited {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+a:active {
+    color: hotpink;
+} 
+
+
+.image{    
+    margin:10px 15px 25px 43px;
+    border: 1px solid black;
+    height:300px;
+    width:270px;
+}
+
+
+form label{
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;    
+}
+
+form input,textarea{
+    width: 99%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border:1px solid #ccc;
+    padding: 4px;
+}
+
+textarea{
+    height: 200px;
+}
+
+form button{
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+ }
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.clear-fix{
+    clear: both;
+    display: block;
+}
+
+footer{
+    background: #777777;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding: 15px;
+    color: #ccc;
+    margin-top:25px;
+    font-size: 10px;
+    
+}
+
+.portfolio_image{
+    position: relative;
+    float:left;
+    width:30%;
+    height:200px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.portfolio_image:hover  {
+    opacity: 0.3;
+  }
+  
+section h4{
+    background: #4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    padding: 12px 0;
+    position: absolute;
+    bottom: 15px;
+    width: 90%;
+}
+
+#image1{
+    background: url(../images/word_guess.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image1:hover{    
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+    }
+    
+#image2{
+    background: url(../images/word.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+
+#image2:hover{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
+
+#image3{
+    background: url(../images/trivia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image3:hover{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
+
+#image4{
+    background: url(../images/giftastic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+
+#image4:hover{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+	}
+
+#image5{
+    background: url(../images/train.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image5:hover{
+		-moz-box-shadow: 0 0 15px #777777;
+		-webkit-box-shadow: 0 0 15px #777777;
+		box-shadow: 0 0 10px #777777;
+    }
+
+    #image6{
+        background: url(../images/bone_apple_tea.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 25px;
+    }
+    
+    #image6:hover{
+            -moz-box-shadow: 0 0 15px #777777;
+            -webkit-box-shadow: 0 0 15px #777777;
+            box-shadow: 0 0 10px #777777;
+        }    
+    
+
+/* Additional Screen Sizes */
+
+/* Width at 980px and below */
+
+
+@media only screen and (max-width: 980px) {
+	.header-div {
+        width: 960px;
+        margin: 0 auto;
+    }
+    section{
+        width:960px;
+
+    }
+}
+/* Width at 768px and below */
+@media only screen and (max-width: 768px) {
+    
+    .header-div {
+        width: 100%;
+      }
+      section{
+          width:100%;
+          height:auto;
+      }
+
+      .portfolio_image{
+          width:45%;
+          height:220px;
+      }
+}
+/* Width at 640 and below */
+@media screen and (max-width: 640px) {
+    
+    .header-div {
+      width: 90%;
+      position: static;
+      padding: 10px;
+      
+    }
+    section{
+        width:90%;
+        height:100%;
+        position: static;
+       
+    }
+    header{        
+        position: static;
+        
+        
+    }
+
+    header h1{
+        background: #4aaaa5;    
+        font-size: 20px;
+        
+        color:#ffffff;
+        
+        display: block;
+        text-align: center;
+        position: static;
+        padding: 15px;        
+        
+    }
+
+   
+
+   
+    
+    .image{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+    .portfolio_section{
+        height: 1200px;
+    }
+    .portfolio_image{
+        position: relative;
+        width:85%;
+        height:180px;
+        margin-bottom: 20px;
+        padding: 15px;
+        
+    }
+
+    #image2{
+        
+        margin-left: 0px;
+    }
+    #image4{
+        
+        margin-left: 0px;
+    }
+   
+  }
+  
