@@ -14,11 +14,15 @@ body{
     top: 0;    
   }
   .link{
-      color: rgb(75, 63, 63);
+      color: white;
       font-weight: bold;
+      background-color: #e0d9d9;
   }
 .gap{
     margin-top: 70px;
+}
+.gap_portfolio{
+    margin-top: 2px;
 }
 .me{
     background: url("../images/web5-edit.png") ;
@@ -94,13 +98,7 @@ header{
     border-bottom: 3px solid #ccc;
     margin-bottom: 30px;
 }
-header h1{
-    background: #4aaaa5;    
-    font-size: 30px;
-    padding: 25px;
-    color:#ffffff;
-    display: inline-block;
-}
+
 
 .header-div{
     width: 960px;
@@ -210,6 +208,8 @@ section h4{
     background: url(../images/word_guess.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width:390px;
+    height:280px;
 }
 
 #image1:hover{    

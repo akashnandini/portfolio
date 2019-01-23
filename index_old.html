@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Portfolio</title>
         <!--Bootstrap links, CSS, JQUERY, JavaScript-->
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">-->
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>-->
-        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link href="assets/css/scrolling-nav.css" rel="stylesheet">
+        <script src=""></script>
         
     </head>
-    <body id="page-top">        
-        <!-- Start navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Nandini Maity</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                        </li>                    
-                    </ul>
-                </div>
+    <body>
+        <div>
+            <!-- Start nav bar links-->
+            <div class="container sticky">
+                <nav class="navbar navbar-default">    
+                    <div class="navbar-header container">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <!--<div class="navbar-brand header-text">Nandini Maity</div>-->
+                    </div>           
+                    
+                    <div class="collapse navbar-collapse link" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html#about">About</a></li>                        
+                        <li><a href="index.html#portfolio">Portfolio</a></li>                        
+                        </ul>
+                    </div>  
+                </nav>
             </div>
-        </nav>
-        <div class="gap"></div>
-        <!-- End nav bar links-->
-        <!-- Start index part-->   
-        <header class="bg-primary text-white me">
-            <div class="container">
-                    <div class="row">
+            <!-- End nav bar links-->
+            <!-- Start index part-->
+            <div class="me" id="one">                        
+                <div class="sec-overlay">
+                    <div class="container">
+                        <div class="row">
                             <div class="col-sm-12">
                                 <div class="home-inner">
                                     <div class="center-align home-content">                                    
@@ -50,13 +51,13 @@
                                 </div>
                             </div>
                         </div>
-            </div>
-        </header>
-        <!-- End index part-->
-            
-        <!-- Start About me part-->
-        <section id="about">
-            <div class="container">                        
+                    </div>
+                </div>
+            </div>    
+            <!-- End index part-->
+            <div class="gap"></div>
+            <!-- Start About me part-->
+            <div class="container" id="about">                        
                 <div class="row">
                     <div class="col-md-4 story">MY STORY
                         <p class="desc">A Full Stack Web Developer with a passion for learning and drive for innovation. Possesses over 4 years of experience as a Web Developer along with a Masters in Computer Science.</p>
@@ -80,39 +81,31 @@
                     </div>
                 </div>    
             </div>
-        </section> 
-        <!-- End About me part-->
-        <!-- Start Portfolio part-->
-        <section id="portfolio">
+            <!-- End About me part-->
+            <div class="gap"></div>
+            <!-- Start Portfolio part-->
             <div class="container" id="portfolio">                        
                 <div class="row">                    
-                    <!--<div class="col-md-4">
+                    <div class="col-md-4">
                         <a href="https://akashnandini.github.io/GifTastic/" target="_blank"><img src="assets/images/giftastic.jpg" height="280px" width="390px"></a>
-                    </div>-->
-                    <div class="col-md-4 portfolio_image" id="image4">
-                        <a href="https://akashnandini.github.io/GifTastic/" target="_blank"><h4>Giftastic</h4></a>
                     </div>
-                    
-                    <div class="col-md-4 portfolio_image" id="image5">
-                        <a href="https://akashnandini.github.io/Train-Scheduler/" target="_blank"><h4>Train Scheduler</h4></a>
+                    <div class="col-md-4">
+                        <a href="https://akashnandini.github.io/Train-Scheduler/" target="_blank"><img src="assets/images/train.jpg" height="280px" width="390px"></a>
                     </div>
-                    <div class="col-md-4 portfolio_image" id="image6">
-                        <a href="https://xpetrus.github.io/p1-boneappletea/" target="_blank"><h4>Bone Apple Tea</h4></a>
+                    <div class="col-md-4">
+                        <a href="https://xpetrus.github.io/p1-boneappletea/" target="_blank"><img src="assets/images/bone_apple_tea.jpg" height="280px" width="390px"></a>
                     </div>                    
                 </div>
                 <div class="gap_portfolio"></div>
-                <div class="row">
-                    <div class="col-md-4 portfolio_image" id="image1">
-                        <a href="https://akashnandini.github.io/Word-Guess-Game/" target="_blank"><h4>Word Guess Game</h4></a>                  
+                <div class="row">                    
+                    <div class="col-md-4">
+                        <a href="https://akashnandini.github.io/Word-Guess-Game/" target="_blank"><img src="assets/images/word_guess.jpg" height="280px" width="390px"></a>
                     </div>
                 </div>        
-            </div>
-        </section>
-        <!-- End Portfolio part-->           
-        
-        <script src="js/scrolling-nav.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            </div> 
+
+            <!-- End Portfolio part-->
+            <div class="gap"></div>
+        </div>
     </body>
 </html>        
