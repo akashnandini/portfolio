@@ -17,9 +17,9 @@
     </head>
     <body id="page-top">        
         <!-- Start navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav_top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Nandini Maity</a>
+                <a class="navbar-brand js-scroll-trigger title" href="#page-top">Nandini Maity</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,7 +30,13 @@
                         </li>
                         <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                        </li>                    
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                        </li>                   
                     </ul>
                 </div>
             </div>
@@ -40,16 +46,17 @@
         <!-- Start index part-->   
         <header class="bg-primary text-white me">
             <div class="container">
-                    <div class="row">
-                            <div class="col-sm-12">
-                                <div class="home-inner">
-                                    <div class="center-align home-content">                                    
-                                        <h1 class="home-title">HI! I'm <span class="name">Nandini Maity</span></h1>
-                                        <h2 class="home-subtitle">Full Stack Web Developer</h2>                                          
-                                    </div>
-                                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="home-inner">
+                            <div class="center-align home-content">                                    
+                                <h1 class="home-title">HI! I'm <span class="name">Nandini Maity</span></h1>
+                                <h2 class="home-subtitle">Full Stack Web Developer</h2> 
+                                <h2 class="home-subtitle"><button type="submit" class="btn btn-default"><a href="https://docs.google.com/document/d/1aA94tKQYLbvKQ-UvFOe_BWjSnWWr2su-5Xkqi6tcXTU/edit?usp=sharing" target="_blank">Resume</a></button></h2>                                         
                             </div>
                         </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- End index part-->
@@ -83,32 +90,123 @@
         </section> 
         <!-- End About me part-->
         <!-- Start Portfolio part-->
-        <section id="portfolio">
-            <div class="container" id="portfolio">                        
-                <div class="row">                    
-                    <!--<div class="col-md-4">
-                        <a href="https://akashnandini.github.io/GifTastic/" target="_blank"><img src="assets/images/giftastic.jpg" height="280px" width="390px"></a>
-                    </div>-->
-                    <div class="col-md-4 portfolio_image" id="image4">
-                        <a href="https://akashnandini.github.io/GifTastic/" target="_blank"><h4>Giftastic</h4></a>
-                    </div>
-                    
-                    <div class="col-md-4 portfolio_image" id="image5">
-                        <a href="https://akashnandini.github.io/Train-Scheduler/" target="_blank"><h4>Train Scheduler</h4></a>
-                    </div>
-                    <div class="col-md-4 portfolio_image" id="image6">
-                        <a href="https://xpetrus.github.io/p1-boneappletea/" target="_blank"><h4>Bone Apple Tea</h4></a>
+        <section id="portfolio" class="bg-light">
+            <div class="container">
+                <div class="story">PORTFOLIO</div> 
+                <hr>
+                <div class="gap"></div>                      
+                <div class="row"> 
+                    <div class="col-md-4 card" style="width: 18rem;">
+                        <img src="assets/images/giftastic.jpg" width="350px" height="250px" class="card-img-top" alt="Giftastic">
+                        <div class="card-body">
+                            <a href="https://akashnandini.github.io/Giftastic/" target="_blank" class="card-link">Giftastic</a><br>
+                            <a href="https://github.com/akashnandini/GifTastic" target="_blank" class="card-link">Github Code</a>                                  
+                        </div>
+                    </div>     
+
+                    <div class="col-md-4 card" style="width: 18rem;">
+                        <img src="assets/images/bone_apple_tea.jpg" width="350px" height="250px" class="card-img-top" alt="Bone Apple Tea">
+                        <div class="card-body">
+                            <a href="https://xpetrus.github.io/p1-boneappletea/" target="_blank" class="card-link">Bone Apple Tea</a><br>
+                            <a href="https://github.com/akashnandini/p1-boneappletea" target="_blank" class="card-link">Github Code</a>                                  
+                        </div>
+                    </div>     
+
+                    <div class="col-md-4 card" style="width: 18rem;">
+                        <img src="assets/images/train.jpg" width="350px" height="250px" class="card-img-top" alt="Train">
+                        <div class="card-body">
+                            <a href="https://akashnandini.github.io/Train-Scheduler/" target="_blank" class="card-link">Train Scheduler</a><br>
+                            <a href="https://github.com/akashnandini/Train-Scheduler/" target="_blank" class="card-link">Github Code</a>                                  
+                        </div>
                     </div>                    
-                </div>
+                </div>   
                 <div class="gap_portfolio"></div>
-                <div class="row">
-                    <div class="col-md-4 portfolio_image" id="image1">
-                        <a href="https://akashnandini.github.io/Word-Guess-Game/" target="_blank"><h4>Word Guess Game</h4></a>                  
-                    </div>
+                <div class="row">                    
+                    <div class="col-md-4 card" style="width: 18rem;">
+                        <img src="assets/images/word_guess.jpg" width="350px" height="250px" class="card-img-top" alt="Word-Guess-Game">
+                        <div class="card-body">
+                            <a href="https://akashnandini.github.io/Word-Guess-Game/" target="_blank" class="card-link">Word Guess Game</a><br>
+                            <a href="https://github.com/akashnandini/Word-Guess-Game" target="_blank" class="card-link">Github Code</a>                                  
+                        </div>
+                    </div>   
                 </div>        
             </div>
         </section>
-        <!-- End Portfolio part-->           
+        <!-- End Portfolio part-->  
+        <div class="gap"></div>  
+        <section id="skills">
+            <div class="container">
+                <div class="story">SKILLS</div>
+                <hr>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-2"><img src="assets/images/html.png" width="150px" height="150px"></div>
+                    <div class="col-md-2"><img src="assets/images/css.jpg" width="150px" height="150px"></div>
+                    <div class="col-md-2"><img src="assets/images/js.png" width="150px" height="150px"></div>
+                    <div class="col-md-2"><img src="assets/images/jquery.jpg" width="150px" height="150px"></div>
+                    <div class="col-md-2"><img src="assets/images/node.png" width="150px" height="150px"></div>
+                    <div class="col-md-2"><img src="assets/images/react.png" width="150px" height="150px"></div>
+                    <div class="btn-wrapp skl-ctrl">
+                        <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="mdi-navigation-chevron-left "></i></a>
+                        <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="mdi-navigation-chevron-right "></i></a>
+                    </div>
+                </div>
+            </div>   
+        </section>  
+        <div class="gap"></div>
+        <!--Contact-->
+        <section id="contact" class="bg-light">
+           <!-- <div class="container">
+                <div class="story">GET IN TOUCH</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="form_name" placeholder="Name">
+                            <label for="name">Email:</label>
+                            <input type="email" name="email" id="form_email" placeholder="example@gmail.com">
+                            <label for="name">Message:</label>
+                            <textarea name="message" id="form_message"></textarea>
+                            <button type="submit">Submit</button>   
+                        </form>
+                    </div>    
+                </div>    
+            </div>     --> 
+
+
+            
+                    
+                      <div class="container">
+                        <div class="story">GET IN TOUCH
+                          
+                          <hr>
+                          <div class="gap"></div>
+                        </div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                          <form name="sentMessage" id="contactForm" novalidate>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                                  <p class="help-block text-danger"></p>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                                  <p class="help-block text-danger"></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                              <p class="help-block text-danger"></p>
+                            </div>
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-default">Send Message</button>
+                </form>
+
+        </section>     
         
         <script src="js/scrolling-nav.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
