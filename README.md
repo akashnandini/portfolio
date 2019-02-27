@@ -1,6 +1,6 @@
 # portfolio
 
-Updated Portfolio site should have the following content:
+Portfolio site:
 
 * Name
 * Links to your GitHub profile & LinkedIn page as well as email address and phone number
