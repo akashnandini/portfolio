@@ -230,7 +230,10 @@ button:hover {
 .portfolio_image:hover  {
     opacity: 0.3;
   }
-  
+.info1{
+    font-size:15px;
+    color:white;
+}
 section h5{
     background: #777777;
     color:#ffffff;
@@ -405,8 +408,8 @@ section h5{
             filter:alpha(opacity=0);
             -webkit-transition:all .2s ease-in-out;
             transition:all .2s ease-in-out;
-            margin:50px 0 0;
-            padding:7px 14px;
+            margin:20px 0 0;
+            padding:7px 10px;
             }
             
             .hovereffect a.info:hover {
